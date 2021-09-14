@@ -1,6 +1,6 @@
 .button.product__xr-button {
-  background: rgba(var(--color-foreground), 0.08);
-  color: rgb(var(--color-foreground));
+  background: var(--color-foreground-8);
+  color: var(--color-foreground);
   margin: 1rem auto;
   box-shadow: none;
 }
@@ -24,7 +24,7 @@
 }
 
 @media screen and (min-width: 750px) {
-  slider-component + .button.product__xr-button {
+  .product__media-wrapper > .button.product__xr-button {
     display: none;
   }
 

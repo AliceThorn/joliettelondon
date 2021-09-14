@@ -41,7 +41,7 @@
       "settings": {
         "type_header_font": {
           "label": "字型",
-          "info": "選取不同字型會影響商店速度。[深入瞭解系統字型。](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)"
+          "info": "選取不同字型會影響商店速度。[深入瞭解系統字型。](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
         },
         "header__1": {
           "content": "標題"
@@ -51,7 +51,7 @@
         },
         "type_body_font": {
           "label": "字型",
-          "info": "選取不同字型會影響商店速度。[深入瞭解系統字型。](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)"
+          "info": "選取不同字型會影響商店速度。[深入瞭解系統字型。](https:\/\/help.shopify.com\/en\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
         }
       }
     },
@@ -68,7 +68,7 @@
           "options__3": {
             "label": "色調 2"
           },
-          "label": "銷售徽章顏色配置"
+          "label": "銷售徽章顏色系統"
         },
         "sold_out_badge_color_scheme": {
           "options__1": {
@@ -77,28 +77,7 @@
           "options__2": {
             "label": "倒轉"
           },
-          "label": "售罄徽章顏色佈景主題"
-        },
-        "header__1": {
-          "content": "徽章"
-        },
-        "header__2": {
-          "content": "裝飾元素"
-        },
-        "accent_icons": {
-          "options__1": {
-            "label": "色調 1"
-          },
-          "options__2": {
-            "label": "色調 2"
-          },
-          "options__3": {
-            "label": "外框按鈕"
-          },
-          "options__4": {
-            "label": "文字"
-          },
-          "label": "強調圖示"
+          "label": "售罄徽章顏色系統"
         }
       }
     },
@@ -122,94 +101,39 @@
         },
         "social_twitter_link": {
           "label": "Twitter",
-          "info": "https://twitter.com/shopify"
+          "info": "https:\/\/twitter.com\/shopify"
         },
         "social_facebook_link": {
           "label": "Facebook",
-          "info": "https://facebook.com/shopify"
+          "info": "https:\/\/facebook.com\/shopify"
         },
         "social_pinterest_link": {
           "label": "Pinterest",
-          "info": "https://pinterest.com/shopify"
+          "info": "https:\/\/pinterest.com\/shopify"
         },
         "social_instagram_link": {
           "label": "Instagram",
-          "info": "http://instagram.com/shopify"
+          "info": "http:\/\/instagram.com\/shopify"
         },
         "social_tiktok_link": {
           "label": "TikTok",
-          "info": "https://tiktok.com/@shopify"
+          "info": "https:\/\/tiktok.com\/@shopify"
         },
         "social_tumblr_link": {
           "label": "Tumblr",
-          "info": "https://shopify.tumblr.com"
+          "info": "https:\/\/shopify.tumblr.com"
         },
         "social_snapchat_link": {
           "label": "Snapchat",
-          "info": "https://www.snapchat.com/add/shopify"
+          "info": "https:\/\/www.snapchat.com\/add\/shopify"
         },
         "social_youtube_link": {
           "label": "YouTube",
-          "info": "https://www.youtube.com/shopify"
+          "info": "https:\/\/www.youtube.com\/shopify"
         },
         "social_vimeo_link": {
           "label": "Vimeo",
-          "info": "https://vimeo.com/shopify"
-        },
-        "header": {
-          "content": "社群帳號"
-        }
-      }
-    },
-    "currency_format": {
-      "name": "幣別格式",
-      "settings": {
-        "content": "幣別代碼",
-        "paragraph": "購物車和結帳價格一律顯示幣別代碼。例如：$1.00 美元。",
-        "currency_code_enabled": {
-          "label": "顯示幣別代碼"
-        }
-      }
-    },
-    "favicon": {
-      "name": "Favicon",
-      "settings": {
-        "favicon": {
-          "label": "Favicon 圖片",
-          "info": "將會縮小為 32 x 32 像素"
-        }
-      }
-    },
-    "layout": {
-      "name": "版面配置",
-      "settings": {
-        "page_width": {
-          "label": "最大寬度",
-          "options__1": {
-            "label": "1200 像素"
-          },
-          "options__2": {
-            "label": "1600 像素"
-          }
-        }
-      }
-    },
-    "search_input": {
-      "name": "搜尋輸入",
-      "settings": {
-        "header": {
-          "content": "產品建議"
-        },
-        "predictive_search_enabled": {
-          "label": "啟用產品建議"
-        },
-        "predictive_search_show_vendor": {
-          "label": "顯示廠商",
-          "info": "啟用產品建議時顯示。"
-        },
-        "predictive_search_show_price": {
-          "label": "顯示價格",
-          "info": "啟用產品建議時顯示。"
+          "info": "https:\/\/vimeo.com\/shopify"
         }
       }
     }
@@ -282,7 +206,7 @@
             },
             "image_padding": {
               "label": "新增圖片邊框間距",
-              "info": "若您不希望圖片遭到裁剪，請選取圖片邊框間距。"
+              "info": "若您不希望圖片受到裁減，請選取圖片邊框間距。"
             },
             "color_scheme": {
               "options__1": {
@@ -331,7 +255,7 @@
             },
             "image_padding": {
               "label": "新增圖片邊框間距",
-              "info": "若您不希望圖片遭到裁剪，請選取圖片邊框間距。"
+              "info": "若您不希望圖片受到裁減，請選取圖片邊框間距。"
             },
             "color_scheme": {
               "options__1": {
@@ -360,17 +284,13 @@
               "label": "封面圖片"
             },
             "video_url": {
-              "label": "網址",
+              "label": "連結",
               "info": "若區段包含其他區塊，則影片會在彈出式視窗中顯示。",
-              "placeholder": "使用 YouTube 或 Vimeo 網址"
+              "placeholder": "使用 YouTube 或 Vimeo 連結"
             },
             "image_padding": {
               "label": "新增圖片邊框間距",
-              "info": "若您不希望封面圖片遭到裁剪，請選取圖片邊框。"
-            },
-            "description": {
-              "label": "影片替代文字",
-              "info": "提供影片說明以便使用螢幕閱讀器的顧客瀏覽。"
+              "info": "若您不希望圖片受到裁減，請選取圖片邊框間距。"
             }
           },
           "name": "影片"
@@ -398,7 +318,7 @@
           "options__3": {
             "label": "正方形"
           },
-          "info": "編輯您的商品系列以新增圖片。[瞭解詳情](https://help.shopify.com/en/manual/products/collections)"
+          "info": "若要新增圖片，[請編輯您的商品系列](https:\/\/help.shopify.com\/en\/manual\/products\/collections)"
         },
         "color_scheme": {
           "options__1": {
@@ -454,8 +374,7 @@
       "name": "自訂 Liquid",
       "settings": {
         "custom_liquid": {
-          "label": "自訂 Liquid",
-          "info": "新增應用程式程式碼片段或其他 Liquid 碼以建立進階自訂內容。"
+          "label": "自訂 Liquid"
         }
       },
       "presets": {
@@ -480,16 +399,10 @@
         },
         "show_image": {
           "label": "顯示精選圖片",
-          "info": "若想要獲得最佳結果，請使用寬高比為 2:3 的圖片。[瞭解詳情](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
+          "info": "若想要獲得最佳結果，請使用寬高比為 2:3 的圖片。"
         },
         "soft_background": {
           "label": "顯示次要背景"
-        },
-        "show_date": {
-          "label": "顯示日期"
-        },
-        "show_author": {
-          "label": "顯示作者"
         }
       },
       "blocks": {
@@ -553,17 +466,10 @@
           "label": "游標暫留時顯示次要圖片"
         },
         "add_image_padding": {
-          "label": "新增圖片邊框間距"
+          "label": "新增邊框間距"
         },
         "show_vendor": {
           "label": "顯示廠商"
-        },
-        "show_image_outline": {
-          "label": "顯示圖片邊框"
-        },
-        "show_rating": {
-          "label": "顯示產品評等",
-          "info": "新增產品評等應用程式，即可顯示評等。[瞭解詳情](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/sections#featured-collection-show-product-rating)"
         }
       },
       "presets": {
@@ -625,7 +531,7 @@
           "label": "標題"
         },
         "header__1": {
-          "info": "訂閱者已自動新增至您的「接受行銷」顧客名單。[瞭解詳情](https://help.shopify.com/en/manual/customers/manage-customers)",
+          "info": "訂閱者已新增至您的「已接受行銷」[顧客名單。](https:\/\/help.shopify.com\/en\/manual\/customers\/manage-customers)",
           "content": "電子郵件訂閱"
         },
         "header__2": {
@@ -636,19 +542,19 @@
           "label": "顯示社群媒體圖示"
         },
         "header__3": {
-          "content": "國家/地區選擇器"
+          "content": "國家\/地區選擇器"
         },
         "header__4": {
-          "info": "若要新增國家/地區，請前往 [payment settings](/admin/settings/payments)。"
+          "info": "若要新增國家\/地區，請前往 [payment settings](\/admin\/settings\/payments)。"
         },
         "enable_country_selector": {
-          "label": "啟用國家/地區選擇器"
+          "label": "啟用國家\/地區選擇器"
         },
         "header__5": {
           "content": "語言選擇器"
         },
         "header__6": {
-          "info": "若要新增語言，請前往 [language settings](/admin/settings/languages)。"
+          "info": "若要新增語言，請前往 [language settings](\/admin\/settings\/languages)。"
         },
         "enable_language_selector": {
           "label": "啟用語言選擇器"
@@ -692,24 +598,6 @@
         "enable_sticky_header": {
           "label": "啟用固定式頁首",
           "info": "頁首會在顧客往上滑時顯示在螢幕上。"
-        },
-        "color_scheme": {
-          "options__1": {
-            "label": "色調 1"
-          },
-          "options__2": {
-            "label": "色調 2"
-          },
-          "options__3": {
-            "label": "背景 1"
-          },
-          "options__4": {
-            "label": "背景 2"
-          },
-          "options__5": {
-            "label": "反轉"
-          },
-          "label": "顏色配置"
         }
       }
     },
@@ -750,26 +638,13 @@
           "options__5": {
             "label": "倒轉"
           },
-          "label": "顏色配置",
-          "info": "顯示文字方塊時可見"
+          "label": "顏色配置"
         },
         "stack_images_on_mobile": {
           "label": "在行動裝置上堆疊圖片"
         },
         "adapt_height_first_image": {
           "label": "配合的一張圖片尺寸的區段高度"
-        },
-        "show_text_box": {
-          "label": "在桌面顯示文字方塊"
-        },
-        "image_overlay_opacity": {
-          "label": "圖片疊加層透明度"
-        },
-        "header": {
-          "content": "行動版版面配置"
-        },
-        "show_text_below": {
-          "label": "將文字置於圖片下方"
         }
       },
       "blocks": {
@@ -777,15 +652,6 @@
           "settings": {
             "heading": {
               "label": "標題"
-            },
-            "heading_size": {
-              "options__1": {
-                "label": "中等"
-              },
-              "options__2": {
-                "label": "大"
-              },
-              "label": "標題字型大小"
             }
           },
           "name": "標題"
@@ -927,7 +793,7 @@
               "options__3": {
                 "label": "大"
               },
-              "info": "若想要獲得最佳結果，請使用寬高比為 16:9 的圖片。[瞭解詳情](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
+              "info": "若想要獲得最佳結果，請使用寬高比為 16:9 的圖片。"
             }
           },
           "name": "主要圖片"
@@ -948,20 +814,6 @@
         },
         "social_sharing": {
           "name": "社群分享按鈕"
-        },
-        "share": {
-          "name": "分享",
-          "settings": {
-            "featured_image_info": {
-              "content": "若您在社群媒體貼文加入連結，則此頁面的主要圖片會顯示為預覽圖片。[瞭解詳情](https://help.shopify.com/en/manual/online-store/images/showing-social-media-thumbnail-images)。"
-            },
-            "title_info": {
-              "content": "商店名稱和說明包含在預覽圖片中。[瞭解詳情](https://help.shopify.com/en/manual/promoting-marketing/seo/adding-keywords#set-a-title-and-description-for-your-online-store)"
-            },
-            "text": {
-              "label": "文字"
-            }
-          }
         }
       }
     },
@@ -973,16 +825,10 @@
         },
         "show_image": {
           "label": "顯示精選圖片",
-          "info": "若想要獲得最佳結果，請使用寬高比為 2:3 的圖片。[瞭解詳情](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
+          "info": "若想要獲得最佳結果，請使用寬高比為 2:3 的圖片。"
         },
         "paragraph": {
-          "content": "編輯您的網誌文章以變更摘要。[瞭解詳情](https://help.shopify.com/en/manual/online-store/blogs/writing-blogs#display-an-excerpt-from-a-blog-post)"
-        },
-        "show_date": {
-          "label": "顯示日期"
-        },
-        "show_author": {
-          "label": "顯示作者"
+          "content": "若要變更摘要，請編輯您的 [網誌文章。](https:\/\/help.shopify.com\/en\/manual\/online-store\/blogs\/writing-blogs#display-an-excerpt-from-a-blog-post)"
         }
       },
       "blocks": {
@@ -1033,14 +879,14 @@
       "name": "商品系列橫幅",
       "settings": {
         "paragraph": {
-          "content": "編輯您的商品系列以新增說明或圖片。[瞭解詳情](https://help.shopify.com/en/manual/products/collections/collection-layout)"
+          "content": "若要變更商品系列說明或商品系列圖片，[請編輯您的商品系列。](\/admin\/collections)"
         },
         "show_collection_description": {
           "label": "顯示商品系列說明"
         },
         "show_collection_image": {
           "label": "顯示商品系列圖片",
-          "info": "若想要獲得最佳結果，請使用寬高比為 16:9 的圖片。[瞭解詳情](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
+          "info": "若想要獲得最佳結果，請使用寬高比為 16:9 的圖片。"
         }
       }
     },
@@ -1079,30 +925,20 @@
         },
         "enable_tags": {
           "label": "啟用篩選",
-          "info": "[自訂篩選](/admin/menus)"
+          "info": "[自訂篩選](\/admin\/menus)"
+        },
+        "enable_sort": {
+          "label": "啟用排序"
         },
         "enable_filtering": {
           "label": "啟用篩選",
-          "info": "自訂 [篩選條件](/admin/menus)"
+          "info": "[自訂篩選條件](\/admin\/menus)"
         },
         "enable_sorting": {
           "label": "啟用排序"
         },
         "header__3": {
           "content": "產品卡"
-        },
-        "show_image_outline": {
-          "label": "顯示圖片邊框"
-        },
-        "enable_sort": {
-          "label": "啟用排序"
-        },
-        "collapse_on_larger_devices": {
-          "label": "在較大的螢幕上收合"
-        },
-        "show_rating": {
-          "label": "顯示產品評等",
-          "info": "新增產品評等應用程式，即可顯示評等。[瞭解詳情](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#product-grid-show-product-rating)"
         }
       }
     },
@@ -1144,7 +980,7 @@
           "options__3": {
             "label": "正方形"
           },
-          "info": "編輯您的商品系列以新增圖片。[瞭解詳情](https://help.shopify.com/en/manual/products/collections)"
+          "info": "若要新增圖片，[請編輯您的商品系列](https:\/\/help.shopify.com\/en\/manual\/products\/collections)"
         },
         "color_scheme": {
           "options__1": {
@@ -1226,7 +1062,7 @@
       }
     },
     "main-product": {
-      "name": "產品資訊",
+      "name": "產品",
       "blocks": {
         "text": {
           "settings": {
@@ -1266,7 +1102,7 @@
           "settings": {
             "show_dynamic_checkout": {
               "label": "顯示動態結帳按鈕",
-              "info": "顧客可以使用您商店可用的付款方式，看見其偏好選項，如 PayPal 或 Apple Pay 。[深入瞭解相關資訊](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)"
+              "info": "顧客可以使用您商店可用的付款方式，看見其偏好選項，如 PayPal 或 Apple Pay 。[深入瞭解相關資訊](https:\/\/help.shopify.com\/manual\/using-themes\/change-the-layout\/dynamic-checkout)"
             }
           },
           "name": "購買按鈕"
@@ -1275,16 +1111,7 @@
           "settings": {
             "header": {
               "content": "分享",
-              "info": "在您從線上商店將連結發佈至社群媒體時，系統會顯示該頁面的精選圖片。[深入瞭解](https://help.shopify.com/en/manual/online-store/images/showing-social-media-thumbnail-images)。設定網路商店的標題與描述[深入瞭解](https://help.shopify.com/en/manual/promoting-marketing/seo/adding-keywords#set-a-title-and-description-for-your-online-store)"
-            },
-            "featured_image_info": {
-              "content": "若您在社群媒體貼文加入連結，則此頁面的主要圖片會顯示為預覽圖片。[瞭解詳情](https://help.shopify.com/en/manual/online-store/images/showing-social-media-thumbnail-images)。"
-            },
-            "title_info": {
-              "content": "商店名稱和說明包含在預覽圖片中。[瞭解詳情](https://help.shopify.com/en/manual/promoting-marketing/seo/adding-keywords#set-a-title-and-description-for-your-online-store)"
-            },
-            "text": {
-              "label": "文字"
+              "info": "在您從線上商店將連結發佈至社群媒體時，系統會顯示該頁面的精選圖片。[深入瞭解](https:\/\/help.shopify.com\/en\/manual\/online-store\/images\/showing-social-media-thumbnail-images)。設定網路商店的標題與描述[深入瞭解](https:\/\/help.shopify.com\/en\/manual\/promoting-marketing\/seo\/adding-keywords#set-a-title-and-description-for-your-online-store)"
             }
           },
           "name": "分享"
@@ -1302,7 +1129,7 @@
               "label": "分頁內容頁面"
             },
             "icon": {
-              "label": "圖示",
+              "label": "分頁圖示",
               "options__1": {
                 "label": "無"
               },
@@ -1404,38 +1231,15 @@
         },
         "description": {
           "name": "說明"
-        },
-        "custom_liquid": {
-          "name": "自訂 Liquid",
-          "settings": {
-            "custom_liquid": {
-              "label": "自訂 Liquid",
-              "info": "新增應用程式程式碼片段或其他 Liquid 碼以建立進階自訂內容。"
-            }
-          }
-        },
-        "rating": {
-          "name": "產品評等",
-          "settings": {
-            "paragraph": {
-              "content": "新增產品評等應用程式，即可顯示評等。[瞭解詳情](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#product-rating-block)"
-            }
-          }
         }
       },
       "settings": {
         "header": {
           "content": "多媒體檔案",
-          "info": "深入瞭解 [多媒體檔案類型。](https://help.shopify.com/manual/products/product-media)"
+          "info": "深入瞭解 [多媒體檔案類型](https:\/\/help.shopify.com\/manual\/products\/product-media)"
         },
         "enable_video_looping": {
           "label": "啟用影片循環播放功能"
-        },
-        "enable_sticky_info": {
-          "label": "在大螢幕上啟用固定產品資訊"
-        },
-        "hide_variants": {
-          "label": "在選取一個子類後，隱藏其他子類的多媒體檔案"
         }
       }
     },
@@ -1457,7 +1261,7 @@
         "show_secondary_image": {
           "label": "游標暫留時顯示次要圖片"
         },
-        "add_image_padding": {
+        "enable_image_padding": {
           "label": "新增圖片邊框間距"
         },
         "show_vendor": {
@@ -1474,13 +1278,6 @@
         },
         "article_show_author": {
           "label": "顯示作者"
-        },
-        "show_image_outline": {
-          "label": "顯示圖片邊框"
-        },
-        "show_rating": {
-          "label": "顯示產品評等",
-          "info": "新增產品評等應用程式，即可顯示評等。[瞭解詳情](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#search-results-show-product-rating)"
         }
       }
     },
@@ -1594,7 +1391,7 @@
           "label": "讓區段呈現全寬度"
         },
         "paragraph": {
-          "content": "每筆電子郵件訂閱都會建立顧客帳號。[瞭解詳情](https://help.shopify.com/en/manual/customers)"
+          "content": "在顧客訂閱電子郵件時，便會建立顧客帳號。[深入瞭解](https:\/\/help.shopify.com\/en\/manual\/customers)"
         }
       },
       "blocks": {
@@ -1639,14 +1436,14 @@
       "name": "商品推薦",
       "settings": {
         "header": {
-          "info": "動態推薦會使用訂單和產品資訊，以隨著時間改變與改進。[深入瞭解](https://help.shopify.com/en/themes/development/recommended-products)"
+          "info": "動態推薦會使用訂單和產品資訊，以隨著時間改變與改進。[深入瞭解](https:\/\/help.shopify.com\/en\/themes\/development\/recommended-products)"
         },
         "heading": {
           "label": "標題"
         },
         "header__1": {
           "content": "商品推薦",
-          "info": "動態推薦會使用訂單和產品資訊，以隨著時間改變與改進。[瞭解詳情](https://help.shopify.com/en/themes/development/recommended-products)"
+          "info": "動態推薦會使用訂單和產品資訊，以隨著時間改變與改進。[瞭解詳情](https:\/\/help.shopify.com\/en\/themes\/development\/recommended-products)"
         },
         "header__2": {
           "content": "產品卡"
@@ -1667,20 +1464,10 @@
           "label": "游標暫留時顯示次要圖片"
         },
         "add_image_padding": {
-          "label": "新增圖片邊框間距"
+          "label": "新增邊框間距"
         },
         "show_vendor": {
           "label": "顯示廠商"
-        },
-        "paragraph__1": {
-          "content": "動態推薦會使用訂單和產品資訊，以隨著時間改變與改進。[瞭解詳情](https://help.shopify.com/en/themes/development/recommended-products)"
-        },
-        "show_image_outline": {
-          "label": "顯示圖片邊框"
-        },
-        "show_rating": {
-          "label": "顯示產品評等",
-          "info": "新增產品評等應用程式，即可顯示評等。[瞭解詳情](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#product-recommendations-show-product-rating)"
         }
       }
     },
@@ -1722,10 +1509,7 @@
               "options__2": {
                 "label": "中等"
               },
-              "label": "標題字型尺寸",
-              "options__3": {
-                "label": "大"
-              }
+              "label": "標題字型尺寸"
             }
           },
           "name": "標題"
@@ -1756,158 +1540,6 @@
       "presets": {
         "name": "RTF 文字",
         "category": "文字"
-      }
-    },
-    "apps": {
-      "name": "應用程式",
-      "settings": {
-        "include_margins": {
-          "label": "將區段邊界設為與佈景主題相同"
-        }
-      },
-      "presets": {
-        "name": "應用程式"
-      }
-    },
-    "video": {
-      "name": "影片",
-      "settings": {
-        "heading": {
-          "label": "標題"
-        },
-        "cover_image": {
-          "label": "封面圖片"
-        },
-        "video_url": {
-          "label": "網址",
-          "placeholder": "使用 YouTube 或 Vimeo 網址",
-          "info": "在頁面播放影片"
-        },
-        "description": {
-          "label": "影片替代文字",
-          "info": "提供影片說明以便使用螢幕閱讀器的顧客瀏覽。"
-        },
-        "image_padding": {
-          "label": "新增圖片邊框間距",
-          "info": "若您不希望圖片遭到裁剪，請選取圖片邊框。"
-        },
-        "full_width": {
-          "label": "讓區段以全寬度呈現"
-        }
-      },
-      "presets": {
-        "name": "影片"
-      }
-    },
-    "featured-product": {
-      "name": "精選產品",
-      "blocks": {
-        "text": {
-          "name": "文字",
-          "settings": {
-            "text": {
-              "label": "文字"
-            },
-            "text_style": {
-              "label": "文字樣式",
-              "options__1": {
-                "label": "內文"
-              },
-              "options__2": {
-                "label": "副標題"
-              },
-              "options__3": {
-                "label": "大寫"
-              }
-            }
-          }
-        },
-        "title": {
-          "name": "標題"
-        },
-        "price": {
-          "name": "價格"
-        },
-        "quantity_selector": {
-          "name": "數量選擇器"
-        },
-        "variant_picker": {
-          "name": "子類選擇器",
-          "settings": {
-            "picker_type": {
-              "label": "類型",
-              "options__1": {
-                "label": "下拉式選單"
-              },
-              "options__2": {
-                "label": "按鈕"
-              }
-            }
-          }
-        },
-        "buy_buttons": {
-          "name": "購買按鈕",
-          "settings": {
-            "show_dynamic_checkout": {
-              "label": "顯示動態結帳按鈕",
-              "info": "顧客可透過您商店的可用付款方式，看到其偏好選項 (如 PayPal 或 Apple Pay)。[瞭解詳情](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)"
-            }
-          }
-        },
-        "description": {
-          "name": "說明"
-        },
-        "share": {
-          "name": "分享",
-          "settings": {
-            "featured_image_info": {
-              "content": "若您在社群媒體貼文中加入連結，則此頁面的主要圖片會顯示為預覽圖片。[瞭解詳情](https://help.shopify.com/en/manual/online-store/images/showing-social-media-thumbnail-images)"
-            },
-            "title_info": {
-              "content": "商店名稱和說明包含在預覽圖片中。[瞭解詳情](https://help.shopify.com/en/manual/promoting-marketing/seo/adding-keywords#set-a-title-and-description-for-your-online-store)"
-            },
-            "text": {
-              "label": "文字"
-            }
-          }
-        },
-        "custom_liquid": {
-          "name": "自訂 Liquid",
-          "settings": {
-            "custom_liquid": {
-              "label": "自訂 Liquid"
-            }
-          }
-        },
-        "rating": {
-          "name": "產品評等",
-          "settings": {
-            "paragraph": {
-              "content": "新增產品評等應用程式，即可顯示評等。[瞭解詳情](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/sections#featured-product-rating)"
-            }
-          }
-        }
-      },
-      "settings": {
-        "product": {
-          "label": "產品"
-        },
-        "secondary_background": {
-          "label": "顯示次要背景"
-        },
-        "header": {
-          "content": "多媒體檔案",
-          "info": "深入瞭解 [多媒體檔案類型](https://help.shopify.com/manual/products/product-media)"
-        },
-        "enable_video_looping": {
-          "label": "啟用影片循環播放功能"
-        },
-        "hide_variants": {
-          "label": "隱藏桌面版未選擇的子類多媒體檔案"
-        }
-      },
-      "presets": {
-        "name": "精選產品"
       }
     }
   }

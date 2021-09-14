@@ -1,9 +1,3 @@
-.rte:after {
-  clear: both;
-  content: '';
-  display: block;
-}
-
 .rte > p:first-child {
   margin-top: 0;
 }
@@ -41,14 +35,14 @@
 }
 
 .rte a {
-  color: rgba(var(--color-link), var(--alpha-link));
+  color: var(--color-link-hover);
   text-underline-offset: 0.3rem;
   text-decoration-thickness: 0.1rem;
   transition: text-decoration-thickness var(--duration-short) ease;
 }
 
 .rte a:hover {
-  color: rgb(var(--color-link));
+  color: var(--color-link);
   text-decoration-thickness: 0.2rem;
 }
 

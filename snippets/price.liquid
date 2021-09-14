@@ -21,9 +21,6 @@
   assign price = target.price | default: 1999
   assign available = target.available | default: false
   assign money_price = price | money
-  if settings.currency_code_enabled
-    assign money_price = price | money_with_currency
-  endif
 
   if target == product and product.price_varies
     assign money_price = 'products.product.price.from_price_html' | t: price: money_price
@@ -58,11 +55,7 @@
       </dt>
       <dd class="price__compare">
         <s class="price-item price-item--regular">
-          {% if settings.currency_code_enabled %}
-            {{ compare_at_price | money_with_currency }}
-          {% else %}
-            {{ compare_at_price | money }}
-          {% endif %}
+          {{ compare_at_price | money }}
         </s>
       </dd>
       <dt>
@@ -74,7 +67,7 @@
         </span>
       </dd>
     </div>
-    <small class="unit-price caption{% if product.selected_or_first_available_variant.unit_price_measurement == nil %} hidden{% endif %}">
+    <small class="unit-price caption{% if available == false or product.selected_or_first_available_variant.unit_price_measurement == nil %} hidden{% endif %}">
       <dt class="visually-hidden">{{ 'products.product.price.unit_price' | t }}</dt>
       <dd {% if show_badges == false %}class="price__last"{% endif %}>
         <span>{{- product.selected_or_first_available_variant.unit_price | money -}}</span>

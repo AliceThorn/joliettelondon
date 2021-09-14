@@ -8,7 +8,7 @@
       "login_form_error": "Palavra-passe errada!",
       "login_form_submit": "Entrar",
       "modal": "Palavra-passe modal",
-      "admin_link_html": "É o proprietário da loja? <a href=\"/admin\" class=\"link underlined-link\">Inicie a sessão aqui</a>",
+      "admin_link_html": "É o proprietário da loja? <a href=\"\/admin\" class=\"link underlined-link\">Inicie sessão aqui<\/a>",
       "powered_by_shopify_html": "Esta loja irá contar com tecnologia {{ shopify }}"
     },
     "social": {
@@ -44,15 +44,17 @@
       "item_added": "Item adicionado ao seu carrinho"
     },
     "share": {
-      "copy_to_clipboard": "Copiar ligação",
+      "copy_to_clipboard": "Copiar URL para a área de transferência",
       "share": "Partilhar",
-      "share_url": "Ligação",
-      "success_message": "Ligação copiada para a área de transferência",
-      "close": "Fechar partilha"
+      "share_url": "Partilhar URL",
+      "success_message": "Copiado para a área de transferência!"
     }
   },
+  "date_formats": {
+    "month_year": "%B %Y"
+  },
   "newsletter": {
-    "label": "E-mail",
+    "label": "O seu e-mail",
     "success": "Obrigado pela sua subscrição",
     "button_label": "Subscrever"
   },
@@ -70,10 +72,7 @@
     "next_slide": "Deslizar para a direita",
     "previous_slide": "Deslizar para a esquerda",
     "loading": "A carregar...",
-    "of": "de",
-    "skip_to_product_info": "Saltar para a informação do produto",
-    "total_reviews": "análises totais",
-    "star_reviews_info": "{{ rating_value }} de {{ rating_max }} estrelas"
+    "of": "de"
   },
   "blogs": {
     "article": {
@@ -129,18 +128,11 @@
         "view_store_info": "Ver informações da loja",
         "check_other_stores": "Verificar a disponibilidade noutras lojas",
         "pick_up_available": "Recolha disponível",
-        "pick_up_available_at_html": "Recolha disponível em <span class=\"color-foreground\">{{ location_name }}</span>",
-        "pick_up_unavailable_at_html": "Recolha atualmente indisponível em <span class=\"color-foreground\">{{ location_name }}</span>",
+        "pick_up_available_at_html": "Recolha disponível em <span class=\"color-foreground\">{{ location_name }}<\/span>",
+        "pick_up_unavailable_at_html": "Recolha atualmente indisponível em <span class=\"color-foreground\">{{ location_name }}<\/span>",
         "unavailable": "Não foi possível carregar a disponibilidade de recolha",
         "refresh": "Atualizar"
-      },
-      "media": {
-        "open_featured_media": "Abrir conteúdo multimédia em destaque na vista em galeria",
-        "open_media": "Abrir conteúdo multimédia {{ index }} na vista em galeria",
-        "play_model": "Ativar Visualizador 3D",
-        "play_video": "Reproduzir o vídeo"
-      },
-      "view_full_details": "Ver detalhes completos"
+      }
     },
     "modal": {
       "label": "Galeria de conteúdo multimédia"
@@ -148,15 +140,13 @@
   },
   "templates": {
     "search": {
-      "no_results": "Não foram encontrados resultados para \"{{ terms }}\". Verifique a ortografia ou utilize uma palavra ou frase diferente.",
+      "no_results": "Nenhum resultado encontrado para “{{ terms }}” . Verifique a ortografia ou utilize uma palavra ou frase diferente.",
       "page": "Página",
       "results_with_count": {
         "one": "{{ count }} resultado encontrado para “{{ terms }}”",
         "other": "{{ count }} resultado encontrado para “{{ terms }}”"
       },
-      "title": "Resultados da pesquisa",
-      "products": "Produtos",
-      "search_for": "Procurar por \"{{ terms }}\""
+      "title": "Resultados da pesquisa"
     },
     "cart": {
       "cart": "Carrinho"
@@ -197,9 +187,9 @@
       "empty": "O seu carrinho está vazio",
       "cart_error": "Ocorreu um erro ao atualizar o seu carrinho. Tente novamente.",
       "cart_quantity_error_html": "É possível adicionar apenas [quantity] desse item ao carrinho.",
-      "taxes_and_shipping_policy_at_checkout_html": "Impostos e <a href=\"{{ link }}\">shipping</a> calculados na finalização da compra",
+      "taxes_and_shipping_policy_at_checkout_html": "Impostos e <a href=\"{{ link }}\">shipping<\/a> calculados na finalização da compra",
       "taxes_included_but_shipping_at_checkout": "Imposto incluído e envio calculado na finalização da compra",
-      "taxes_included_and_shipping_policy_html": "Imposto incluído. <a href=\"{{ link }}\">Envio</a> calculado na finalização da compra.",
+      "taxes_included_and_shipping_policy_html": "Imposto incluído. <a href=\"{{ link }}\">Envio<\/a> calculado na finalização da compra.",
       "taxes_and_shipping_at_checkout": "Impostos e envio calculados na finalização da compra",
       "headings": {
         "product": "Produto",
@@ -207,11 +197,7 @@
         "total": "Total",
         "quantity": "Quantidade"
       },
-      "update": "Atualizar",
-      "login": {
-        "title": "Tem uma conta?",
-        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Inicie sessão</a> para finalizar a compra mais rápido."
-      }
+      "update": "Atualizar"
     },
     "footer": {
       "payment": "Métodos de pagamento",
@@ -231,42 +217,28 @@
     },
     "collection_template": {
       "title": "Coleção",
-      "sort_by_label": "Ordenar por:",
+      "sort_by_label": "Ordenar por",
       "sort_button": "Ordenar",
-      "product_count": {
-        "one": "{{ product_count }} de {{ count }} produto",
-        "other": "{{ product_count }} de {{ count }} produtos"
-      },
+      "product_count": "{{ count }} produtos",
       "empty": "Nenhum produto encontrado",
       "apply": "Aplicar",
       "clear": "Limpar",
       "clear_all": "Limpar tudo",
       "from": "De",
       "filter_and_sort": "Filtrar e ordenar",
-      "filter_by_label": "Filtrar:",
+      "filter_by_label": "Filtrar por",
       "filter_button": "Filtrar",
       "max_price": "O preço mais alto é {{ price }}",
       "reset": "Repor",
-      "to": "Até",
-      "use_fewer_filters_html": "Usar menos filtros ou <a class=\"{{ class }}\" href=\"{{ link }}\">limpar tudo</a>",
-      "filters_selected": {
-        "one": "{{ count }} selecionada",
-        "other": "{{ count }} selecionada"
-      },
-      "product_count_simple": {
-        "one": "{{ count }} produto",
-        "other": "{{ count }} produtos"
-      }
-    },
-    "video": {
-      "load_video": "Carregar vídeo: {{ description }}"
+      "to": "Para",
+      "use_fewer_filters_html": "Usar menos filtros ou <a class=\"{{ class }}\" href=\"{{ link }}\">limpar tudo<\/a>"
     }
   },
   "localization": {
-    "country_label": "País/região",
+    "country_label": "País\/região",
     "language_label": "Idioma",
     "update_language": "Atualizar idioma",
-    "update_country": "Atualizar país/região"
+    "update_country": "Atualizar país\/região"
   },
   "customer": {
     "account": {
@@ -295,7 +267,7 @@
       "address1": "Endereço1",
       "address2": "Endereço 2",
       "city": "Localidade",
-      "country": "País/região",
+      "country": "País\/região",
       "province": "Província",
       "zip": "Código postal",
       "phone": "Telefone",

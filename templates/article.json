@@ -4,24 +4,34 @@
       "type": "main-article",
       "blocks": {
         "featured_image": {
-          "type": "featured_image"
+          "type": "featured_image",
+          "settings": {
+          }
         },
         "title": {
-          "type": "title"
+          "type": "title",
+          "settings": {
+          }
         },
         "content": {
-          "type": "content"
+          "type": "content",
+          "settings": {
+          }
         },
-        "share": {
-          "type": "share"
+        "social_sharing": {
+          "type": "social_sharing",
+          "settings": {
+          }
         }
       },
       "block_order": [
         "featured_image",
         "title",
-        "share",
-        "content"
-      ]
+        "content",
+        "social_sharing"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [

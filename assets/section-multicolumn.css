@@ -63,22 +63,16 @@
 }
 
 .multicolumn:not(.background-none) .multicolumn-card {
-  background: rgba(var(--color-foreground), 0.04);
+  background: var(--color-foreground-4);
   height: 100%;
 }
 
 .multicolumn.background-secondary .multicolumn-card {
-  background: rgb(var(--color-background));
+  background: var(--color-background);
 }
 
 .multicolumn.background-secondary {
   padding: 4rem 0 5rem;
-}
-
-@media screen and (max-width: 749px) {
-  .multicolumn.background-secondary .slider-buttons {
-    margin-bottom: -2rem;
-  }
 }
 
 .multicolumn:not(.background-secondary) {

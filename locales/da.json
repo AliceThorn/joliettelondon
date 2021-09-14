@@ -8,7 +8,7 @@
       "login_form_error": "Forkert adgangskode!",
       "login_form_submit": "Få adgang",
       "modal": "Adgangskodemodus",
-      "admin_link_html": "Er du butiksejeren? <a href=\"/admin\" class=\"link underlined-link\">Log ind her</a>",
+      "admin_link_html": "Er du butiksejeren? <a href=\"\/admin\" class=\"link underlined-link\">Log ind her<\/a>",
       "powered_by_shopify_html": "Denne butik vil blive drevet af {{ shopify }}"
     },
     "social": {
@@ -44,15 +44,17 @@
       "item_added": "Varen er lagt i indkøbskurven"
     },
     "share": {
-      "copy_to_clipboard": "Kopiér link",
+      "copy_to_clipboard": "Kopiér webadresse til udklipsholder",
       "share": "Del",
-      "share_url": "Link",
-      "success_message": "Linket er kopieret til udklipsholderen",
-      "close": "Luk deling"
+      "share_url": "Del webadresse",
+      "success_message": "Kopieret til udklipsholder!"
     }
   },
+  "date_formats": {
+    "month_year": "%B %Y"
+  },
   "newsletter": {
-    "label": "Mail",
+    "label": "Din mail",
     "success": "Tak, fordi du har tegnet et abonnement",
     "button_label": "Abonner"
   },
@@ -70,10 +72,7 @@
     "next_slide": "Skub til højre",
     "previous_slide": "Skub til venstre",
     "loading": "Indlæser...",
-    "of": "af",
-    "skip_to_product_info": "Gå til produktoplysninger",
-    "total_reviews": "anmeldelser i alt",
-    "star_reviews_info": "{{ rating_value }} ud af {{ rating_max }} stjerner"
+    "of": "af"
   },
   "blogs": {
     "article": {
@@ -129,18 +128,11 @@
         "view_store_info": "Se butiksoplysninger",
         "check_other_stores": "Kontrollér tilgængelighed i andre butikker",
         "pick_up_available": "Afhentning er tilgængelig",
-        "pick_up_available_at_html": "Afhentning er tilgængelig på <span class=\"color-foreground\">{{ location_name }}</span>",
-        "pick_up_unavailable_at_html": "Afhentning er ikke tilgængelig på <span class=\"color-foreground\">{{ location_name }}</span> i øjeblikket",
+        "pick_up_available_at_html": "Afhentning er tilgængelig på <span class=\"color-foreground\">{{ location_name }}<\/span>",
+        "pick_up_unavailable_at_html": "Afhentning er ikke tilgængelig på <span class=\"color-foreground\">{{ location_name }}<\/span> i øjeblikket",
         "unavailable": "Tilgængelighed for afhentning kunne ikke indlæses",
         "refresh": "Opdater"
-      },
-      "media": {
-        "open_featured_media": "Åbn det fremhævede medie i gallerivisning",
-        "open_media": "Åbn mediet {{ index }} i gallerivisning",
-        "play_model": "Afspil 3D-fremviser",
-        "play_video": "Afspil video"
-      },
-      "view_full_details": "Se komplette oplysninger"
+      }
     },
     "modal": {
       "label": "Mediegalleri"
@@ -148,15 +140,13 @@
   },
   "templates": {
     "search": {
-      "no_results": "Der blev ikke fundet nogen resultater for \"{{ terms }}\". Kontrollér stavemåden, eller brug et andet ord eller udtryk.",
+      "no_results": "Der blev ikke fundet nogen resultater for “{{ terms }}”. Kontrollér stavemåden, eller brug et andet ord eller udtryk.",
       "results_with_count": {
         "one": "Der blev fundet {{ count }} resultat for “{{ terms }}”",
         "other": "Der blev fundet {{ count }} resultater for “{{ terms }}”"
       },
       "title": "Søgeresultater",
-      "page": "Side",
-      "products": "Produkter",
-      "search_for": "Søg efter \"{{ terms }}\""
+      "page": "Side"
     },
     "cart": {
       "cart": "Indkøbskurv"
@@ -197,9 +187,9 @@
       "empty": "Din indkøbskurv er tom",
       "cart_error": "Der opstod en fejl under opdatering af din indkøbskurv. Prøv igen.",
       "cart_quantity_error_html": "Du kan kun lægge [antal] af denne vare i indkøbskurven.",
-      "taxes_and_shipping_policy_at_checkout_html": "Afgifter og <a href=\"{{ link }}\">levering</a> beregnes ved betaling",
+      "taxes_and_shipping_policy_at_checkout_html": "Afgifter og <a href=\"{{ link }}\">levering<\/a> beregnes ved betaling",
       "taxes_included_but_shipping_at_checkout": "Inklusive afgifter. Levering beregnes ved betaling",
-      "taxes_included_and_shipping_policy_html": "Inklusive afgifter. <a href=\"{{ link }}\">Levering</a> beregnes ved betaling.",
+      "taxes_included_and_shipping_policy_html": "Inklusive afgifter. <a href=\"{{ link }}\">Levering<\/a> beregnes ved betaling.",
       "taxes_and_shipping_at_checkout": "Afgifter og levering beregnes ved betaling",
       "headings": {
         "product": "Produkt",
@@ -207,11 +197,7 @@
         "total": "I alt",
         "quantity": "Antal"
       },
-      "update": "Opdater",
-      "login": {
-        "title": "Har du en konto?",
-        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Log ind</a> for at betale hurtigere."
-      }
+      "update": "Opdater"
     },
     "footer": {
       "payment": "Betalingsmetoder",
@@ -231,42 +217,28 @@
     },
     "collection_template": {
       "title": "Kollektion",
-      "sort_by_label": "Sortér efter:",
+      "sort_by_label": "Sortér efter",
       "sort_button": "Sortér",
-      "product_count": {
-        "one": "{{ product_count }} af {{ count }} produkt",
-        "other": "{{ product_count }} af {{ count }} produkter"
-      },
+      "product_count": "{{ count }} produkter",
       "empty": "Der blev ikke fundet nogen produkter",
       "apply": "Anvend",
       "clear": "Ryd",
       "clear_all": "Ryd alt",
       "from": "Fra",
       "filter_and_sort": "Filtrer og sortér",
-      "filter_by_label": "Filter:",
+      "filter_by_label": "Filtrer efter",
       "filter_button": "Filtrer",
       "max_price": "Den højeste pris er {{ price }}",
       "reset": "Nulstil",
       "to": "Til",
-      "use_fewer_filters_html": "Brug færre filtre, eller <a class=\"{{ class }}\" href=\"{{ link }}\">ryd alt</a>",
-      "filters_selected": {
-        "one": "{{ count }} valgt",
-        "other": "{{ count }} valgt"
-      },
-      "product_count_simple": {
-        "one": "{{ count }} produkt",
-        "other": "{{ count }} produkter"
-      }
-    },
-    "video": {
-      "load_video": "Indlæs video: {{ description }}"
+      "use_fewer_filters_html": "Brug færre filtre, eller <a class=\"{{ class }}\" href=\"{{ link }}\">ryd alt<\/a>"
     }
   },
   "localization": {
-    "country_label": "Land/område",
+    "country_label": "Land\/område",
     "language_label": "Sprog",
     "update_language": "Opdater sprog",
-    "update_country": "Opdater land/område"
+    "update_country": "Opdater land\/område"
   },
   "customer": {
     "account": {
@@ -295,7 +267,7 @@
       "address1": "Adresse 1",
       "address2": "Adresse 2",
       "city": "By",
-      "country": "Land/område",
+      "country": "Land\/område",
       "province": "Provins",
       "zip": "Postnummer",
       "phone": "Telefon",
@@ -368,7 +340,7 @@
       "price": "Pris",
       "quantity": "Antal",
       "total": "I alt",
-      "fulfilled_at_html": "Klargjort den {{ date }}",
+      "fulfilled_at_html": "Behandlet den {{ date }}",
       "track_shipment": "Følg forsendelse",
       "tracking_url": "Trackinglink",
       "tracking_company": "Transportfirma",

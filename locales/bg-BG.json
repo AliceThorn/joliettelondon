@@ -8,7 +8,7 @@
       "login_form_error": "Неправилна парола.",
       "login_form_submit": "Въведете",
       "modal": "Тип парола",
-      "admin_link_html": "Вие ли сте собственикът на магазина? <a href=\"/admin\" class=\"link underlined-link\">Влезте тук</a>",
+      "admin_link_html": "Вие ли сте собственикът на магазина? <a href=\"\/admin\" class=\"link underlined-link\">Влезте тук<\/a>",
       "powered_by_shopify_html": "Този магазин ще се поддържа от {{ shopify }}"
     },
     "social": {
@@ -44,15 +44,17 @@
       "item_added": "Артикулът е добавен в количката"
     },
     "share": {
-      "copy_to_clipboard": "Копиране на връзката",
+      "copy_to_clipboard": "Копиране на URL адреса в клипборда",
       "share": "Споделяне",
-      "share_url": "Връзка",
-      "success_message": "Връзката е копирана в клипборда",
-      "close": "Затваряне на споделянето"
+      "share_url": "Споделяне на URL адрес",
+      "success_message": "Копирано в клипборда."
     }
   },
+  "date_formats": {
+    "month_year": "%B %Y"
+  },
   "newsletter": {
-    "label": "Имейл",
+    "label": "Вашият имейл адрес",
     "success": "Благодарим, че се абонирахте",
     "button_label": "Абониране"
   },
@@ -70,10 +72,7 @@
     "next_slide": "Плъзгане надясно",
     "previous_slide": "Плъзгане наляво",
     "loading": "Зареждане...",
-    "of": "от",
-    "skip_to_product_info": "Прескочи към информацията за продукта",
-    "total_reviews": "общ брой мнения",
-    "star_reviews_info": "{{ rating_value }} от {{ rating_max }} звезди"
+    "of": "от"
   },
   "blogs": {
     "article": {
@@ -129,18 +128,11 @@
         "view_store_info": "Вижте информация за магазина",
         "check_other_stores": "Проверка за наличност в други магазини",
         "pick_up_available": "Възможност за взимане",
-        "pick_up_available_at_html": "Възможност за взимане от <span class=\"color-foreground\">{{ location_name }}</span>",
-        "pick_up_unavailable_at_html": "В момента няма възможност за взимане от <span class=\"color-foreground\">{{ location_name }}</span>",
+        "pick_up_available_at_html": "Възможност за взимане от <span class=\"color-foreground\">{{ location_name }}<\/span>",
+        "pick_up_unavailable_at_html": "В момента няма възможност за взимане от <span class=\"color-foreground\">{{ location_name }}<\/span>",
         "unavailable": "Не може да се зареди възможността за взимане",
         "refresh": "Обнови"
-      },
-      "media": {
-        "open_featured_media": "Отваряне на актуалната мултимедия в изглед на галерия",
-        "open_media": "Отваряне на мултимедия {{ index }} в изглед на галерия",
-        "play_model": "Възпроизвеждане с 3D Viewer",
-        "play_video": "Възпроизвеждане на видеоклип"
-      },
-      "view_full_details": "Покажи пълните подробности"
+      }
     },
     "modal": {
       "label": "Мултимедийна галерия"
@@ -154,9 +146,7 @@
         "other": "Открити са {{ count }} резултата за „{{ terms }}“"
       },
       "title": "Резултати от търсенето",
-      "page": "Страница",
-      "products": "Продукти",
-      "search_for": "Търсене на „{{ terms }}“"
+      "page": "Страница"
     },
     "cart": {
       "cart": "Количка"
@@ -196,9 +186,9 @@
       "empty": "Количката ви е празна.",
       "cart_error": "При актуализирането на количката ви възникна грешка. Опитайте отново.",
       "cart_quantity_error_html": "Можете да добавите само [quantity] от този артикул в количката си.",
-      "taxes_and_shipping_policy_at_checkout_html": "Данъците и <a href=\"{{ link }}\">доставката</a> се изчисляват при плащане",
+      "taxes_and_shipping_policy_at_checkout_html": "Данъците и <a href=\"{{ link }}\">доставката<\/a> се изчисляват при плащане",
       "taxes_included_but_shipping_at_checkout": "Данъците са включени, а доставката се изчислява при плащане",
-      "taxes_included_and_shipping_policy_html": "С включени данъци. <a href=\"{{ link }}\">Доставката</a> се изчислява при плащане.",
+      "taxes_included_and_shipping_policy_html": "С включени данъци. <a href=\"{{ link }}\">Доставката<\/a> се изчислява при плащане.",
       "taxes_and_shipping_at_checkout": "Данъците и доставката се изчисляват при плащане",
       "headings": {
         "product": "Продукт",
@@ -207,11 +197,7 @@
         "quantity": "Количество"
       },
       "update": "Актуализиране",
-      "note": "Специални инструкции за поръчката",
-      "login": {
-        "title": "Имате профил?",
-        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Влезте</a> за по-бързо преминаване към плащане."
-      }
+      "note": "Специални инструкции за поръчката"
     },
     "footer": {
       "payment": "Начини на плащане",
@@ -231,7 +217,7 @@
     },
     "collection_template": {
       "title": "Колекция",
-      "sort_by_label": "Сортиране по:",
+      "sort_by_label": "Сортиране по",
       "sort_button": "Сортиране",
       "empty": "Не са открити продукти",
       "apply": "Приложи",
@@ -239,7 +225,7 @@
       "clear_all": "Изчисти всички",
       "from": "От",
       "filter_and_sort": "Филтриране и сортиране",
-      "filter_by_label": "Филтър:",
+      "filter_by_label": "Филтриране по",
       "filter_button": "Филтър",
       "filters_selected": {
         "one": "Избрани: {{ count }}",
@@ -248,25 +234,18 @@
       "max_price": "Най-високата цена е {{ price }}",
       "reset": "Нулиране",
       "to": "До",
-      "use_fewer_filters_html": "Използвайте по-малко филтри или <a class=\"{{ class }}\" href=\"{{ link }}\">изчистете всички</a>",
+      "use_fewer_filters_html": "Използвайте по-малко филтри или <a class=\"{{ class }}\" href=\"{{ link }}\">изчистете всички<\/a>",
       "product_count": {
-        "one": "{{ product_count }} от {{ count }} продукт",
-        "other": "{{ product_count }} от {{ count }} продукта"
-      },
-      "product_count_simple": {
-        "one": "{{ count }} продукт",
-        "other": "{{ count }} продукта"
+        "one": "Показан {{ product_count }} от {{ count }} продукт",
+        "other": "Показани {{ product_count }} от {{ count }} продукта"
       }
-    },
-    "video": {
-      "load_video": "Зареждане на видео: {{ description }}"
     }
   },
   "localization": {
-    "country_label": "Държава/регион",
+    "country_label": "Държава\/регион",
     "language_label": "Език",
     "update_language": "Актуализиране на езика",
-    "update_country": "Актуализиране на държава/регион"
+    "update_country": "Актуализиране на държава\/регион"
   },
   "customer": {
     "account_fallback": "Профил",
@@ -285,7 +264,7 @@
       "address1": "Адрес 1",
       "address2": "Адрес 2",
       "city": "Град",
-      "country": "Държава/регион",
+      "country": "Държава\/регион",
       "province": "Провинция",
       "phone": "Телефон",
       "set_default": "Задаване като адрес по подразбиране",
