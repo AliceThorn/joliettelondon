@@ -63,6 +63,12 @@
         "id": "colors_background_2",
         "default": "#FAF1E9",
         "label": "t:settings_schema.colors.settings.colors_background_2.label"
+      },
+      {
+        "type": "color",
+        "id": "colors_background_3",
+        "default": "transparent",
+        "label": "Background 3"
       }
     ]
   },
@@ -115,6 +121,10 @@
           {
             "value": "background-2",
             "label": "t:settings_schema.styles.settings.sale_badge_color_scheme.options__1.label"
+          },
+          {
+            "value": "background-3",
+            "label": "Background 3"
           }
         ],
         "default": "accent-2",
