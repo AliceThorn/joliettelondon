@@ -1,6 +1,7 @@
 {
   "current": {
-    "colors_accent_1": "#445958",
+    "colors_accent_1": "#804363",
+    "colors_outline_button_labels": "#804363",
     "colors_background_2": "#ececec",
     "type_header_font": "neue_haas_unica_n4",
     "type_body_font": "neue_haas_unica_n4",
@@ -31,8 +32,8 @@
       "header": {
         "type": "header",
         "settings": {
-          "logo": "shopify:\/\/shop_images\/joliette-jewelry-logo.png",
-          "logo_width": 220,
+          "logo": "shopify:\/\/shop_images\/joliette-jewelry-logo2.png",
+          "logo_width": 170,
           "logo_position": "top-center",
           "menu": "main-menu",
           "show_line_separator": true,
@@ -45,13 +46,29 @@
           "footer-0": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
+              "heading": "STAY UPDATED",
+              "menu": "stay-updated"
+            }
+          },
+          "ccfa1474-6c65-44de-9a3c-b02ac1a568e6": {
+            "type": "link_list",
+            "settings": {
+              "heading": "USEFUL LINKS",
               "menu": "footer"
+            }
+          },
+          "fbd75246-9f9b-4c36-8471-f91cbc97fd81": {
+            "type": "text",
+            "settings": {
+              "heading": "OUR MISSION",
+              "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
             }
           }
         },
         "block_order": [
-          "footer-0"
+          "footer-0",
+          "ccfa1474-6c65-44de-9a3c-b02ac1a568e6",
+          "fbd75246-9f9b-4c36-8471-f91cbc97fd81"
         ],
         "settings": {
           "color_scheme": "background-2",

@@ -1,0 +1,121 @@
+<div class="page-width">
+    <div class="section-block section-block--padding">
+      {% if section.settings.title != blank %}
+        <div class="section-block__header text-center">
+       
+  <h2 class="subtitle-header title{% if section.settings.title == blank %} title--no-heading{% endif %}">{{ section.settings.title | escape }}</h2>
+  
+        </div>
+      {% endif %}
+  
+      <div class="logo-container">
+        {% for block in section.blocks %}
+        
+            <div class="flex__item" {{ block.shopify_attributes }}>
+              <div class="image-block">
+                {% if block.settings.image != blank %}
+                <a href="https://joliettelondon.myshopify.com">  <img src="{{ block.settings.image | img_url: '250x250' }}" alt="{{ block.settings.image.alt }}" class="image-block__image"></a>
+                {% else %}
+                  <div class="image-block__image">
+                    {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                  </div>
+                {% endif %}
+              </div>
+            </div>
+    
+        {% endfor %}
+      </div>
+      
+      {% comment %}
+              Add SVG icon snippets to an object for custom slider arrows
+            {% endcomment %}
+            <script>
+              {% capture arrow_left %}{% include 'icon-arrow-left' %}{% endcapture %}
+              {% capture arrow_right %}{% include 'icon-arrow-right' %}{% endcapture %}
+              {% capture arrow_up %}{% include 'icon-arrow-up' %}{% endcapture %}
+              {% capture arrow_down %}{% include 'icon-arrow-down' %}{% endcapture %}
+              var sliderArrows = {
+                left: {{ arrow_left | json }},
+                right: {{ arrow_right | json }},
+                up: {{ arrow_up | json }},
+                down: {{ arrow_down | json }}
+              }
+            </script>
+      
+  
+      {% if section.blocks.size == 0 %}
+        {% include 'no-blocks' %}
+      {% endif %}
+    </div>
+  </div>
+  
+  <style>
+    .image-block__image{
+        object-fit:cover;
+        height:75px;
+    }
+  .logo-container{
+    display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  </style>
+  
+  {% schema %}
+    {
+      "name": "Logo list",
+      "class": "index-section",
+      "max_blocks": 20,
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Logo list"
+        }
+      ],
+      "blocks": [
+        {
+          "type": "logo",
+          "name": "Logo",
+          "settings": [
+            {
+              "type": "image_picker",
+              "id": "image",
+              "label": "Image"
+            }
+          ]
+        }
+      ],
+      "presets": [
+        {
+          "name": "Logo list",
+          "category": "Image",
+          "blocks": [
+            {
+              "type": "logo"
+            },
+            {
+              "type": "logo"
+            },
+            {
+              "type": "logo"
+            },
+            {
+              "type": "logo"
+            },
+            {
+              "type": "logo"
+            },
+            {
+              "type": "logo"
+            },
+            {
+              "type": "logo"
+            }
+          ]
+        }
+      ]
+    }
+  {% endschema %}
+  

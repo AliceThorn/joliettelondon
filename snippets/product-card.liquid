@@ -13,6 +13,15 @@
 {% endcomment %}
 
 <div class="card-wrapper">
+  {% for tag in product_card_product.tags %}
+    {% if tag == "awesome" %}
+      <div class="awesome">AWESOME</div>
+    {% elsif tag == "personalised" %}
+      <div class="awesome">PERSONALISE ME</div>
+    {% elsif tag == "detachable" %}
+        <div class="awesome">DETACHABLE</div>
+    {% endif%}
+   {% endfor %}
   <a href="{{ product_card_product.url | default: '#' }}" class="full-unstyled-link">
     <span class="visually-hidden">{{ product_card_product.title | escape }}</span>
 

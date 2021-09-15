@@ -40,16 +40,6 @@
             add_image_padding: section.settings.add_image_padding,
             show_vendor: section.settings.show_vendor
           %}
-          {% for tag in product.tags %}
-            {% if tag contains "personalised" %}
-              {% render 'Personalised' %}
-           {% elsif tag contains "awesome" %}
-            {% render 'Awesome' %} 
-            {% elsif tag contains "detachable" %}
-              {% render 'Detachable' %} 
-              {% endif %}
-           {% endfor %}
-
         </li>
       {%- else -%}
         {%- for i in (1..4) -%}

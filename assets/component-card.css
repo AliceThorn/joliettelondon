@@ -307,3 +307,15 @@
     transition: background-color var(--duration-long) ease;
   }
 }
+
+
+.awesome {
+  background: var(--color-base-accent-1);
+  border: 2px solid var(--color-base-accent-1);
+  margin-top: 1em;
+  padding: 0.3em 0.5em;
+  z-index: 9;
+  position: absolute;
+  font-size: 0.5em;
+  color:#fff;
+ }
